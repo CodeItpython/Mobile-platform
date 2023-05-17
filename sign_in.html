@@ -15,7 +15,10 @@
     />
     <meta name="generator" content="Hugo 0.111.3" />
     <title>Signin Template · Bootstrap v5.3</title>
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="canonical"
       href="https://getbootstrap.com/docs/5.3/examples/sign-in/"
@@ -131,7 +134,12 @@
 
     <main class="form-signin w-100 m-auto">
       <form>
-        <img class="mb-4" src="Logo_design.png" alt="" width="80" height="70" />
+        <img
+          class="mb-4"
+          src="logo_design/Main_Logo_design.png"
+          alt=""
+          width="300px"
+        />
         <h1 class="h3 mb-3 fw-normal" style="font-size: 25px">로그인</h1>
 
         <div class="form-floating">
@@ -154,27 +162,31 @@
         </div>
 
         <div class="checkbox mb-3">
-          <label>
-            <input type="checkbox" value="remember-me" /> 로그인 상태 유지
+          <label style="margin-left: -53%">
+            <input type="checkbox" value="remember-me" /> 로그인 정보 저장
           </label>
         </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">
+        <button
+          class="w-100 btn btn-lg btn-primary"
+          type="submit"
+          style="background-color: #ff7b54"
+        >
           로그인
         </button>
-        
-        <footer class="footer py-4">           
-          <div>            
-             <a class="btn btn-social mx-2" href="" >               
-              <img src = "Icons/facebook.svg" width="30" height="30" />             
-            </a>             
-            <a class="btn btn-social mx-2" href="" >               
-              <img src = "Icons/instagram.svg" width="30" height="30" />             
-            </a>             <a class="btn btn-social mx-2" href="" >               
-              <img src = "Icons/twitter.svg" width="30" height="30" />             
-            </a>           
-          </div>         
+        <br />
+
+        <footer class="footer py-4">
+          <div>
+            <a class="btn btn-social p-0" href="" style="margin-bottom: 3%">
+              <img src="logo_design/naver_logo.png" width="300px" height="47px"
+              "/>
+            </a>
+            <a class="btn btn-social p-0" href="">
+              <img src="logo_design/kakao_logo.png" width="300px" />
+            </a>
+          </div>
         </footer>
-        
+
         <p class="mt-5 mb-3 text-body-secondary">
           &copy; Mobile_Platform Touchdown
         </p>
