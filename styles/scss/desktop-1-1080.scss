@@ -1,20 +1,21 @@
-
 html {
-	font-size:62.5%;
+  font-size: 62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-ul, li {
-	list-style: none;
+ul,
+li {
+  list-style: none;
 }
 input {
-	border: none;
+  border: none;
 }
 body {
   width: 192rem;
-}.desktop-1-1080-ZcA {
+}
+.desktop-1-1080-ZcA {
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -72,7 +73,7 @@ body {
           text-align: center;
           font-size: 2.4rem;
           line-height: 1.3625;
-          font-family: Noto Sans, 'Source Sans Pro';
+          font-family: Noto Sans, "Source Sans Pro";
           white-space: nowrap;
           font-weight: 600;
           color: #000000;
@@ -110,7 +111,7 @@ body {
         white-space: nowrap;
         font-size: 1.6rem;
         color: #000000;
-        font-family: Noto Sans, 'Source Sans Pro';
+        font-family: Noto Sans, "Source Sans Pro";
         flex-shrink: 0;
       }
     }
@@ -180,7 +181,15 @@ body {
             border-radius: 2rem;
           }
           .rectangle-59-NMt {
-            background: linear-gradient(-0deg, rgba(47, 47, 47, 0.7099999785) 50%, rgba(47, 47, 47, 0.4900000095) 28.39%, rgba(63, 63, 63, 0.2099999934) 9.89%, rgba(54, 54, 54, 0.1400000006) 8.07%, rgba(125, 125, 125, 0.150000006) 3.9%, rgba(63, 63, 63, 0) 0%);
+            background: linear-gradient(
+              -0deg,
+              rgba(47, 47, 47, 0.7099999785) 50%,
+              rgba(47, 47, 47, 0.4900000095) 28.39%,
+              rgba(63, 63, 63, 0.2099999934) 9.89%,
+              rgba(54, 54, 54, 0.1400000006) 8.07%,
+              rgba(125, 125, 125, 0.150000006) 3.9%,
+              rgba(63, 63, 63, 0) 0%
+            );
             border-radius: 0 0 2rem 2rem;
             width: 166.4rem;
             height: 17.6rem;
@@ -197,7 +206,7 @@ body {
             position: absolute;
             left: 6.7rem;
             top: 44.1rem;
-            font-family: Ubuntu, 'Source Sans Pro';
+            font-family: Ubuntu, "Source Sans Pro";
             height: 3.3rem;
             font-size: 2.8rem;
             white-space: nowrap;
@@ -211,7 +220,7 @@ body {
             top: 50.1rem;
             font-weight: 500;
             line-height: 1.15;
-            font-family: Ubuntu, 'Source Sans Pro';
+            font-family: Ubuntu, "Source Sans Pro";
             white-space: nowrap;
             width: 11.6rem;
           }
@@ -244,7 +253,7 @@ body {
           }
           .item-6-10-i6J {
             color: #ffffff;
-            font-family: Roboto, 'Source Sans Pro';
+            font-family: Roboto, "Source Sans Pro";
             left: 25.6rem;
             top: 50.2rem;
             font-size: 2rem;
@@ -295,7 +304,7 @@ body {
               width: 7.5rem;
               left: 8.1809rem;
               align-items: center;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
             }
           }
           .contact-card-s18 {
@@ -309,7 +318,7 @@ body {
             .group-43-zrS {
               display: flex;
               align-items: center;
-              background-image: url('REPLACE_IMAGE:1:531');
+              background-image: url("REPLACE_IMAGE:1:531");
               font-weight: 700;
               background-position: center;
               background-size: cover;
@@ -317,7 +326,7 @@ body {
               line-height: 1.4475;
               white-space: nowrap;
               color: #2f2f2f;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               background-repeat: no-repeat;
               border-radius: 3.3rem;
               width: 100%;
@@ -355,7 +364,7 @@ body {
               left: 9.9rem;
               top: 12.5rem;
               font-size: 6.5rem;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               line-height: 1;
               color: #000000;
               white-space: nowrap;
@@ -393,7 +402,7 @@ body {
               font-weight: 700;
               line-height: 1;
               color: #000000;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               position: absolute;
             }
           }
@@ -421,7 +430,7 @@ body {
               position: absolute;
               align-items: center;
               justify-content: center;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               height: 6.5rem;
               top: 12.1rem;
               display: flex;
@@ -443,7 +452,7 @@ body {
               width: 18.5rem;
               height: 6.5rem;
               position: absolute;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               left: 6.8185rem;
               align-items: center;
               font-size: 6.5rem;
@@ -473,7 +482,7 @@ body {
               left: 3.4724rem;
               top: 11.9rem;
               line-height: 1;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               width: 24.8rem;
               font-size: 6rem;
               height: 6rem;
@@ -509,7 +518,7 @@ body {
               font-size: 6rem;
               font-weight: 700;
               white-space: nowrap;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               width: 7.3rem;
               height: 6rem;
               align-items: center;
@@ -549,7 +558,7 @@ body {
         left: 11rem;
         line-height: 1;
         color: #000000;
-        font-family: Noto Sans KR, 'Source Sans Pro';
+        font-family: Noto Sans KR, "Source Sans Pro";
         white-space: nowrap;
         width: 29.5rem;
         position: absolute;
@@ -597,14 +606,14 @@ body {
               line-height: 1;
               font-size: 2.4rem;
               color: #000000;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               white-space: nowrap;
               flex-shrink: 0;
               margin-right: 17.6rem;
               text-align: center;
             }
             .reviewcount-fuG {
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               display: flex;
               margin-bottom: 0.1rem;
               text-align: center;
@@ -623,11 +632,11 @@ body {
                 font-weight: 700;
                 line-height: 1;
                 color: #328c82;
-                font-family: Noto Sans KR, 'Source Sans Pro';
+                font-family: Noto Sans KR, "Source Sans Pro";
               }
               .reviewcount-fuG-sub-2 {
                 color: #328c82;
-                font-family: Noto Sans KR, 'Source Sans Pro';
+                font-family: Noto Sans KR, "Source Sans Pro";
                 font-size: 1.5rem;
                 font-weight: 700;
                 line-height: 1;
@@ -649,7 +658,7 @@ body {
               line-height: 1.2125;
               width: 15.2rem;
               color: #0a3622;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               margin-right: 1.6rem;
               font-size: 1.8rem;
               font-weight: 600;
@@ -667,7 +676,7 @@ body {
               height: 100%;
               text-align: center;
               line-height: 1.2125;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               display: flex;
               background-color: #d1e7dd;
               flex-shrink: 0;
@@ -701,7 +710,7 @@ body {
               width: 13.5rem;
               background-color: #d1e7dd;
               border-radius: 1.2rem;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               align-items: center;
             }
             .badges-zVc {
@@ -715,7 +724,7 @@ body {
               line-height: 1.2125;
               display: flex;
               font-size: 1.8rem;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               white-space: nowrap;
               width: 14rem;
               border-radius: 1.2rem;
@@ -728,7 +737,7 @@ body {
             flex-shrink: 0;
             font-weight: 600;
             line-height: 1.125;
-            font-family: Inter, 'Source Sans Pro';
+            font-family: Inter, "Source Sans Pro";
             background-color: #146c43;
             border-radius: 0.6rem;
             font-size: 1.6rem;
@@ -757,7 +766,7 @@ body {
           padding: 1.8rem 1.6rem 1.8rem 25.8rem;
           height: 34.9003rem;
           background-size: 100% 100%;
-          background-image: url('REPLACE_IMAGE:525e481d64ec3dd9b473b19c052178a8e62c6fc9');
+          background-image: url("REPLACE_IMAGE:525e481d64ec3dd9b473b19c052178a8e62c6fc9");
           box-sizing: border-box;
           width: 100%;
           background-position: center;
@@ -797,7 +806,7 @@ body {
               justify-content: center;
               font-weight: 700;
               line-height: 1;
-              font-family: Josefin Sans, 'Source Sans Pro';
+              font-family: Josefin Sans, "Source Sans Pro";
               height: 3.6rem;
             }
           }
@@ -825,7 +834,7 @@ body {
               text-align: center;
               line-height: 1;
               color: #000000;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               white-space: nowrap;
             }
             .reviewcount-uAe {
@@ -839,13 +848,13 @@ body {
               flex-shrink: 0;
               font-size: 1.5rem;
               line-height: 1;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
 
               .reviewcount-uAe-sub-0 {
               }
               .reviewcount-uAe-sub-1 {
                 color: #328c82;
-                font-family: Noto Sans KR, 'Source Sans Pro';
+                font-family: Noto Sans KR, "Source Sans Pro";
                 font-size: 1.5rem;
                 font-weight: 700;
                 line-height: 1;
@@ -874,13 +883,13 @@ body {
               background-color: #d1e7dd;
               height: 100%;
               line-height: 1.2125;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               flex-shrink: 0;
             }
             .badges-LQN {
               border-radius: 1.2rem;
               flex-shrink: 0;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               justify-content: center;
               background-color: #d1e7dd;
               width: 11.5rem;
@@ -900,7 +909,7 @@ body {
               font-size: 1.8rem;
               font-weight: 600;
               color: #0a3622;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               text-align: center;
               white-space: nowrap;
               display: flex;
@@ -923,7 +932,7 @@ body {
             .badges-GSS {
               line-height: 1.2125;
               color: #0a3622;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               align-items: center;
               font-weight: 600;
               white-space: nowrap;
@@ -943,7 +952,7 @@ body {
               border-radius: 1.2rem;
               font-size: 1.8rem;
               color: #0a3622;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               white-space: nowrap;
               justify-content: center;
               background-color: #d1e7dd;
@@ -961,7 +970,7 @@ body {
             font-size: 1.6rem;
             align-items: center;
             color: #ffffff;
-            font-family: Inter, 'Source Sans Pro';
+            font-family: Inter, "Source Sans Pro";
             background-color: #146c43;
             border-radius: 0.6rem;
             width: 34.7rem;
@@ -1011,7 +1020,7 @@ body {
               flex-shrink: 0;
               text-align: center;
               font-weight: 700;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               color: #000000;
               white-space: nowrap;
               margin-right: 17.25rem;
@@ -1022,7 +1031,7 @@ body {
               display: flex;
               align-items: baseline;
               flex-shrink: 0;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               white-space: nowrap;
               font-size: 1.5rem;
               font-weight: 400;
@@ -1036,7 +1045,7 @@ body {
               .reviewcount-pPQ-sub-1 {
                 line-height: 1;
                 color: #328c82;
-                font-family: Noto Sans KR, 'Source Sans Pro';
+                font-family: Noto Sans KR, "Source Sans Pro";
                 font-size: 1.5rem;
                 font-weight: 700;
               }
@@ -1061,7 +1070,7 @@ body {
               background-color: #d1e7dd;
               width: 14rem;
               line-height: 1.2125;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               align-items: center;
               font-size: 1.8rem;
               font-weight: 600;
@@ -1080,7 +1089,7 @@ body {
               display: flex;
               justify-content: center;
               font-weight: 600;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               align-items: center;
               width: 15.7rem;
               background-color: #d1e7dd;
@@ -1097,7 +1106,7 @@ body {
             .badges-zz2 {
               font-weight: 600;
               line-height: 1.2125;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               border-radius: 1.2rem;
               flex-shrink: 0;
               margin-right: 1.4rem;
@@ -1125,13 +1134,13 @@ body {
               background-color: #d1e7dd;
               align-items: center;
               width: 14rem;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               white-space: nowrap;
               justify-content: center;
             }
           }
           .button-nut {
-            font-family: Inter, 'Source Sans Pro';
+            font-family: Inter, "Source Sans Pro";
             white-space: nowrap;
             display: flex;
             align-items: center;
@@ -1188,7 +1197,7 @@ body {
               font-size: 2.4rem;
               line-height: 1;
               color: #000000;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               white-space: nowrap;
               flex-shrink: 0;
             }
@@ -1197,7 +1206,7 @@ body {
               text-align: center;
               font-size: 1.5rem;
               font-weight: 400;
-              font-family: Noto Sans KR, 'Source Sans Pro';
+              font-family: Noto Sans KR, "Source Sans Pro";
               display: flex;
               align-items: baseline;
               flex-shrink: 0;
@@ -1212,7 +1221,7 @@ body {
                 font-weight: 700;
                 line-height: 1;
                 color: #328c82;
-                font-family: Noto Sans KR, 'Source Sans Pro';
+                font-family: Noto Sans KR, "Source Sans Pro";
               }
             }
           }
@@ -1226,7 +1235,7 @@ body {
 
             .badges-UCN {
               font-size: 1.8rem;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               display: flex;
               text-align: center;
               line-height: 1.2125;
@@ -1256,7 +1265,7 @@ body {
               font-weight: 600;
               background-color: #d1e7dd;
               line-height: 1.2125;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               display: flex;
             }
           }
@@ -1280,14 +1289,14 @@ body {
               line-height: 1.2125;
               height: 100%;
               font-size: 1.8rem;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               white-space: nowrap;
               align-items: center;
               background-color: #d1e7dd;
               margin-right: 1.4rem;
             }
             .badges-r6S {
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               height: 100%;
               text-align: center;
               line-height: 1.2125;
@@ -1313,7 +1322,7 @@ body {
             font-weight: 600;
             color: #ffffff;
             height: 5rem;
-            font-family: Inter, 'Source Sans Pro';
+            font-family: Inter, "Source Sans Pro";
             white-space: nowrap;
             flex-shrink: 0;
             line-height: 1.125;
@@ -1345,13 +1354,13 @@ body {
       left: 13.2rem;
       top: 98rem;
       display: flex;
-      font-family: Inter, 'Source Sans Pro';
+      font-family: Inter, "Source Sans Pro";
     }
     .enfp--BRY {
       top: 92.7rem;
       font-size: 3.5rem;
       color: #000000;
-      font-family: Noto Sans KR, 'Source Sans Pro';
+      font-family: Noto Sans KR, "Source Sans Pro";
       font-weight: 700;
       line-height: 1;
       white-space: nowrap;
@@ -1375,7 +1384,7 @@ body {
         font-size: 3rem;
         font-weight: 500;
         color: #000000;
-        font-family: Noto Sans KR, 'Source Sans Pro';
+        font-family: Noto Sans KR, "Source Sans Pro";
         width: 26.1rem;
         position: absolute;
         top: 3.1rem;
@@ -1386,7 +1395,7 @@ body {
       .item-5-10-c9U {
         top: 10.1186rem;
         color: #000000;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         width: 9rem;
         height: 1.8rem;
         position: absolute;
@@ -1400,7 +1409,7 @@ body {
         top: 14.2186rem;
         font-size: 1.8rem;
         line-height: 1;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         width: 45.8rem;
         height: 1.8rem;
         position: absolute;
@@ -1427,7 +1436,7 @@ body {
             font-size: 2.6rem;
             display: flex;
             font-weight: 700;
-            font-family: Noto Sans KR, 'Source Sans Pro';
+            font-family: Noto Sans KR, "Source Sans Pro";
             background-color: #ffffff;
             white-space: nowrap;
             border: solid 0.2rem #ff7b54;
@@ -1445,7 +1454,7 @@ body {
         top: 2.6rem;
         background-size: 100% 100%;
         border-radius: 1.8rem;
-        background-image: url('REPLACE_IMAGE:6a2da275a459c0875c18eb56bf84347ffc185182');
+        background-image: url("REPLACE_IMAGE:6a2da275a459c0875c18eb56bf84347ffc185182");
         width: 28.3rem;
         height: 22rem;
         position: absolute;
@@ -1467,7 +1476,7 @@ body {
         height: 3.2rem;
         top: 19.1rem;
         color: #ffffff;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         justify-content: center;
         width: 7.9741rem;
         position: absolute;
@@ -1498,14 +1507,14 @@ body {
         left: 12.2678rem;
         text-align: center;
         top: 19.1rem;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
       }
       .badges-uCS {
         white-space: nowrap;
         background-color: rgba(50, 140, 130, 0.5);
         text-align: center;
         font-size: 1.8rem;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         border-radius: 0.4rem;
         height: 3.2rem;
         top: 19.1rem;
@@ -1531,7 +1540,7 @@ body {
         font-size: 1.8rem;
         font-weight: 700;
         line-height: 1;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
       }
       .item--eZL {
         left: 2.6rem;
@@ -1544,7 +1553,7 @@ body {
         font-size: 1.8rem;
         line-height: 1;
         color: #000000;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         width: 2.2rem;
       }
     }
@@ -1568,7 +1577,7 @@ body {
         position: absolute;
         top: 3.1rem;
         font-size: 3rem;
-        font-family: Noto Sans KR, 'Source Sans Pro';
+        font-family: Noto Sans KR, "Source Sans Pro";
         white-space: nowrap;
       }
       .item--7bL {
@@ -1579,7 +1588,7 @@ body {
         position: absolute;
         left: 2.5558rem;
         color: #000000;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         top: 10.242rem;
         font-size: 1.8rem;
         font-weight: 700;
@@ -1590,7 +1599,7 @@ body {
         font-weight: 700;
         line-height: 1;
         color: #000000;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         white-space: nowrap;
         height: 1.8rem;
         display: flex;
@@ -1606,7 +1615,7 @@ body {
         font-weight: 400;
         font-size: 1.8rem;
         color: #000000;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         white-space: nowrap;
         height: 1.8rem;
         position: absolute;
@@ -1616,7 +1625,7 @@ body {
         position: absolute;
         top: 14.2186rem;
         line-height: 1;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         white-space: nowrap;
         width: 45.2rem;
         height: 1.8rem;
@@ -1653,7 +1662,7 @@ body {
             border-radius: 3rem;
             height: 100%;
             font-size: 2.6rem;
-            font-family: Noto Sans KR, 'Source Sans Pro';
+            font-family: Noto Sans KR, "Source Sans Pro";
           }
         }
       }
@@ -1674,7 +1683,7 @@ body {
         background-color: rgba(50, 140, 130, 0.5);
         height: 3.2rem;
         text-align: center;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         white-space: nowrap;
         justify-content: center;
         font-size: 1.8rem;
@@ -1696,7 +1705,7 @@ body {
         white-space: nowrap;
         background-color: rgba(50, 140, 130, 0.5);
         left: 12.2678rem;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         justify-content: center;
         height: 3.2rem;
         top: 19.1rem;
@@ -1707,7 +1716,7 @@ body {
       .badges-WxE {
         height: 3.2rem;
         line-height: 1.2125;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         border-radius: 0.4rem;
         width: 12.1rem;
         top: 19.1rem;
@@ -1790,7 +1799,7 @@ body {
                 border-radius: 3rem;
                 justify-content: center;
                 line-height: 1;
-                font-family: Noto Sans KR, 'Source Sans Pro';
+                font-family: Noto Sans KR, "Source Sans Pro";
                 white-space: nowrap;
                 border: solid 0.2rem #ff7b54;
                 width: 100%;
@@ -1805,7 +1814,7 @@ body {
             font-weight: 500;
             line-height: 1;
             color: #000000;
-            font-family: Noto Sans KR, 'Source Sans Pro';
+            font-family: Noto Sans KR, "Source Sans Pro";
             flex-shrink: 0;
             font-size: 3rem;
             letter-spacing: -0.2rem;
@@ -1835,13 +1844,13 @@ body {
               color: #000000;
               white-space: nowrap;
               font-size: 1.8rem;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               flex-shrink: 0;
             }
             .item-7-15-Ldk {
               line-height: 1;
               color: #000000;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               white-space: nowrap;
               flex-shrink: 0;
               margin-bottom: 0.1235rem;
@@ -1858,7 +1867,7 @@ body {
 
             .item--BuG {
               font-weight: 700;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               flex-shrink: 0;
               margin: 0.192rem 4.183rem 0rem 0rem;
               font-size: 1.8rem;
@@ -1874,7 +1883,7 @@ body {
               font-weight: 400;
               line-height: 1;
               color: #000000;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               white-space: nowrap;
             }
           }
@@ -1887,7 +1896,7 @@ body {
             height: 3.2rem;
 
             .badges-x2r {
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               border-radius: 0.4rem;
               flex-shrink: 0;
               height: 100%;
@@ -1906,7 +1915,7 @@ body {
             }
             .badges-eRU {
               width: 16.4rem;
-              font-family: Inter, 'Source Sans Pro';
+              font-family: Inter, "Source Sans Pro";
               background-color: rgba(50, 140, 130, 0.5);
               line-height: 1.2125;
               color: #ffffff;
@@ -1961,7 +1970,7 @@ body {
         color: #000000;
         width: 19.4rem;
         height: 3rem;
-        font-family: Noto Sans KR, 'Source Sans Pro';
+        font-family: Noto Sans KR, "Source Sans Pro";
       }
       .item--kWS {
         display: flex;
@@ -1972,7 +1981,7 @@ body {
         height: 1.8rem;
         left: 2.5558rem;
         font-weight: 700;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         position: absolute;
         top: 10.242rem;
         font-size: 1.8rem;
@@ -1989,13 +1998,13 @@ body {
         white-space: nowrap;
         display: flex;
         color: #000000;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
       }
       .item-7-8-Mm8 {
         width: 8.1rem;
         font-size: 1.8rem;
         font-weight: 400;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         white-space: nowrap;
         height: 1.8rem;
         position: absolute;
@@ -2010,7 +2019,7 @@ body {
         left: 8.9385rem;
         font-weight: 400;
         line-height: 1;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         white-space: nowrap;
         width: 44.9rem;
         top: 14.2186rem;
@@ -2045,7 +2054,7 @@ body {
             border: solid 0.2rem #ff7b54;
             height: 100%;
             align-items: center;
-            font-family: Noto Sans KR, 'Source Sans Pro';
+            font-family: Noto Sans KR, "Source Sans Pro";
           }
         }
       }
@@ -2059,7 +2068,7 @@ body {
         left: 36.4056rem;
       }
       .badges-qCS {
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         align-items: center;
         justify-content: center;
         position: absolute;
@@ -2082,7 +2091,7 @@ body {
         white-space: nowrap;
         position: absolute;
         top: 19.1rem;
-        font-family: Inter, 'Source Sans Pro';
+        font-family: Inter, "Source Sans Pro";
         background-color: rgba(50, 140, 130, 0.5);
         align-items: center;
         left: 15.8678rem;
@@ -2197,7 +2206,7 @@ body {
       font-weight: 700;
       line-height: 1;
       color: #696969;
-      font-family: Noto Sans KR, 'Source Sans Pro';
+      font-family: Noto Sans KR, "Source Sans Pro";
     }
   }
 }
