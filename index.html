@@ -74,7 +74,13 @@
               <img class="vector-1LJ" src="./assets/vector.png" />
               <div class="button-L7g">
                 <div class="rectangle-49-GGE"></div>
-                <div class="item--C9t">둘러보기</div>
+                <div class="item--C9t">
+                  <a
+                    href="Class_page/index.html"
+                    style="text-decoration: none; color: white"
+                    >둘러보기</a
+                  >
+                </div>
               </div>
               <div class="contact-card-s18">
                 <div class="group-43-zrS">다이빙</div>
@@ -88,6 +94,10 @@
               function smaller(img) {
                 img.style.transition = "transform 0.3s";
                 img.style.transform = "scale(1)";
+              }
+              function larger_sm(img) {
+                img.style.transition = "transform 0.3s";
+                img.style.transform = "scale(1.08)";
               }
             </script>
             <div class="group-360-csp">
@@ -226,7 +236,11 @@
         </div>
         <div class="item--ZQA">그냥 바로 채팅방에 입장해버리는건 어떨까요?</div>
         <p class="enfp--BRY">즉흥적인 ENFP를 위해 모아봤습니다!</p>
-        <div class="group-354-rGn">
+        <div
+          class="group-354-rGn"
+          onmouseover="larger_sm(this)"
+          onmouseout="smaller(this)"
+        >
           <p class="item-12--MDY">[1박2일] 강원도 양양 서핑</p>
           <p class="item-5-10-c9U">5명 / 10명</p>
           <p class="item-2023-06-02-2023-06-03--Vyx">
@@ -245,7 +259,11 @@
           <div class="item--ZXt">인원</div>
           <div class="item--eZL">기간</div>
         </div>
-        <div class="group-75-LSA">
+        <div
+          class="group-75-LSA"
+          onmouseover="larger_sm(this)"
+          onmouseout="smaller(this)"
+        >
           <p class="item--eSr">[단기속성] 거창 서핑 강습</p>
           <div class="item--7bL">인원</div>
           <div class="item--D8a">기간</div>
@@ -269,7 +287,11 @@
         </div>
       </div>
       <div class="auto-group-xokm-hG2">
-        <div class="group-357-QAS">
+        <div
+          class="group-357-QAS"
+          onmouseover="larger_sm(this)"
+          onmouseout="smaller(this)"
+        >
           <div class="auto-group-ruzu-1g2">
             <div class="auto-group-naxx-x5U">
               <div class="group-55-uFc">
@@ -300,7 +322,11 @@
             src="./assets/pexels-richard-segal-1645028-1.png"
           />
         </div>
-        <div class="group-69-x4n">
+        <div
+          class="group-69-x4n"
+          onmouseover="larger_sm(this)"
+          onmouseout="smaller(this)"
+        >
           <p class="item--VKc">속초 스쿠버 다이빙</p>
           <div class="item--kWS">인원</div>
           <div class="item--f7c">기간</div>
@@ -322,6 +348,11 @@
           />
         </div>
       </div>
+
+      <div>
+        <img src="assets/section_sale.png" alt="picture" />
+      </div>
+      <br /><br /><br /><br /><br /><br />
       <div class="group-355-tpv">
         <img class="item-1-1-1uY" src="./assets/od.png" />
         <div class="logosns-Xcz">
