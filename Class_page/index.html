@@ -65,11 +65,66 @@
       <div class="banner-6-mae">
         <div class="auto-group-3nm4-6cv">
           <div class="slide">
-            <img src="./assets/BANNER 6.png" / style="position: absolute; width:
-            1920px; height: 530px; left: 0px; top: 280px; "> <img
-            src="./assets/banner_5.png" / style="position: absolute; width:
-            1920px; height: 530px; left: 0px; top: 280px; ">
+            <img
+              src="./assets/BANNER 6.png"
+              id="image1"
+              style="
+                position: absolute;
+                width: 1920px;
+                height: 530px;
+                left: 0px;
+                top: 280px;
+              "
+            />
+            <img
+              src="./assets/banner_5.png"
+              id="image2"
+              style="
+                position: absolute;
+                width: 1920px;
+                height: 530px;
+                left: 1920px;
+                top: 280px;
+              "
+            />
           </div>
+
+          <script>
+            function slideImages() {
+              var image1 = document.getElementById("image1");
+              var image2 = document.getElementById("image2");
+              var slideContainer = document.querySelector(".slide");
+
+              slideContainer.style.overflow = "hidden";
+
+              setTimeout(function () {
+                image1.style.transition = "left 1s ease-in-out";
+                image2.style.transition = "left 1s ease-in-out";
+                image1.style.left = "-1920px";
+                image2.style.left = "0px";
+
+                setTimeout(function () {
+                  image1.style.transition = "";
+                  image2.style.transition = "";
+                  image1.style.left = "1920px";
+                  image2.style.left = "-1920px";
+
+                  setTimeout(function () {
+                    image1.style.transition = "left 1s ease-in-out";
+                    image2.style.transition = "left 1s ease-in-out";
+                    image1.style.left = "0px";
+                    image2.style.left = "1920px";
+
+                    setTimeout(function () {
+                      slideImages();
+                    }, 1000);
+                  }, 1000);
+                }, 1000);
+              }, 2000);
+            }
+
+            slideImages();
+          </script>
         </div>
       </div>
       <p class="contentnamemain-b1G">믿고 선택하는 강사진!</p>
