@@ -48,7 +48,7 @@
           <div class="auto-group-tzty-yBc">
             <div class="badges-GwQ">강사</div>
             <div class="button-tht">
-              <p class="button-CyU">홍길동님</p>
+              <a href="/mypage/mypg.html"<p class="button-CyU">홍길동님</p></a>
               <img class="next-UJi" src="./assets/next.png" />
             </div>
           </div>
@@ -65,7 +65,7 @@
       <div class="banner-6-mae">
         <div class="auto-group-3nm4-6cv">
           <div class="slide">
-            <img
+            <a href="/journey/journey.html"><img
               src="./assets/BANNER 6.png"
               id="image1"
               style="
@@ -75,8 +75,8 @@
                 left: 0px;
                 top: 280px;
               "
-            />
-            <img
+            /></a>
+            <a href="/journey/journey.html"><img
               src="./assets/banner_5.png"
               id="image2"
               style="
@@ -86,44 +86,31 @@
                 left: 1920px;
                 top: 280px;
               "
-            />
+            /></a>
           </div>
 
           <script>
-            function slideImages() {
+            window.addEventListener("load", function () {
               var image1 = document.getElementById("image1");
               var image2 = document.getElementById("image2");
-              var slideContainer = document.querySelector(".slide");
+              var images = [image1, image2];
+              var currentIndex = 0;
 
-              slideContainer.style.overflow = "hidden";
+              function showNextImage() {
+                var currentImage = images[currentIndex];
+                var nextIndex = (currentIndex + 1) % images.length;
+                var nextImage = images[nextIndex];
 
-              setTimeout(function () {
-                image1.style.transition = "left 1s ease-in-out";
-                image2.style.transition = "left 1s ease-in-out";
-                image1.style.left = "-1920px";
-                image2.style.left = "0px";
+                currentImage.style.left = "-1920px";
+                nextImage.style.left = "0px";
 
-                setTimeout(function () {
-                  image1.style.transition = "";
-                  image2.style.transition = "";
-                  image1.style.left = "1920px";
-                  image2.style.left = "-1920px";
+                currentIndex = nextIndex;
 
-                  setTimeout(function () {
-                    image1.style.transition = "left 1s ease-in-out";
-                    image2.style.transition = "left 1s ease-in-out";
-                    image1.style.left = "0px";
-                    image2.style.left = "1920px";
+                setTimeout(showNextImage, 1500); // 이미지 전환 간격 (3초)
+              }
 
-                    setTimeout(function () {
-                      slideImages();
-                    }, 1000);
-                  }, 1000);
-                }, 1000);
-              }, 2000);
-            }
-
-            slideImages();
+              showNextImage();
+            });
           </script>
         </div>
       </div>
